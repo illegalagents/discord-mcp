@@ -1,0 +1,26 @@
+{
+  "name": "discord-mcp",
+  "version": "1.0.1",
+  "description": "A next-gen discord MCP with more functionality then anything in the metaverse.",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "./src/start.sh",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cjft",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
